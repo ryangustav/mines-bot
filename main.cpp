@@ -53,7 +53,8 @@ vector<pair<int, int>> generateMineCoordinates() {
 int main() {
     while (true) {
         string fieldString = generateFieldString();
-        system("cls"); 
+        system("cls");
+        cout << "Press any key to generate" << endl;
         cout << fieldString << endl;
         _getch();
     }
